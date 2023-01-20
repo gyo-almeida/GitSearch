@@ -1,0 +1,120 @@
+main{
+    display: flex;
+}
+
+.introducing-home{
+   background-color: var(--color-brand-1); 
+   width: 50vw;
+}
+
+.home{
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 40% 15px 0 20%;
+    color: var(--color-grey-7);   
+}
+
+.home > h1{
+    font-size: var(--font-title-1);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height);
+    margin-bottom: 37px;
+}
+
+.home > h2{
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-3);
+    line-height: var(--line-height);
+    margin-bottom: 55px;
+}
+
+.home > p{
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height);
+}
+
+.find-user{
+    background-color: var(--color-grey-2); 
+    width: 50vw;
+}
+
+.search{
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 40% 15px 0 20%;
+    color: var(--color-grey-7); 
+}
+
+.search > h2{
+    font-size: var(--font-title-3);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height);
+    margin-bottom: 82px;
+}
+
+.search form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.search form label{
+    font-size: var(--font-text-3);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height);
+}
+
+.search form input{
+    width: 25vw;
+    height: 38px;
+    border: none;
+    border-radius: var(--radius-2);
+}
+
+.error{
+    margin-top: 35px;
+}
+
+#user{
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-7);
+    font-size: var(--font-text-3);
+    font-weight: var(--font-weight-3);
+    padding: 13px 8px;
+}
+
+#user::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: var(--font-text-3);
+    font-weight: var(--font-weight-3);
+    line-height: var(--line-height);
+}
+
+#user-button{
+    cursor: pointer;
+    background-color: rgba(214, 51, 108, 0.4);
+    color: rgba(255, 255, 255, 0.35);
+    justify-content: center;
+    align-items: center;
+    padding: 10px 93px;
+    font-size: var(--font-text-3);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height);
+}
+
+#user-button:hover{
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-7);
+}
+
+.error{
+    color: var(--color-brand-2);
+}
+
+
